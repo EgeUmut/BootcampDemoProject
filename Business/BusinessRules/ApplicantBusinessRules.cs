@@ -17,7 +17,7 @@ public class ApplicantBusinessRules : BaseBusinessRules
     }
 
 
-
+    //test
     //Business Rules
     [LogAspect(typeof(MssqlLogger))]
     public async Task CheckUserNameIfExist(string userName, int? id)
